@@ -9,8 +9,8 @@ import time
 import csv
 
 
-BOT_TOKEN = '8088545963:AAGlMwSoMuG3WlCTSAmpbDIv0J3ztF4uHMk'
-CHAT_ID = '6071169108' 
+BOT_TOKEN = 'Your bot token'
+CHAT_ID = 'your chat id' 
 records=open("records.csv","a+",encoding="utf-8",newline="")
 fieldnames = ['City Name', 'Property Links']
 writer = csv.DictWriter(records, fieldnames=fieldnames)
